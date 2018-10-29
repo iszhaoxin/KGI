@@ -1,0 +1,118 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Adjacency	../graph.py	/^class Adjacency:$/;"	kind:class	line:377
+DataHelper	../datahelper.py	/^class DataHelper:$/;"	kind:class	line:10
+Debug	../datahelper.py	/^Debug = True$/;"	kind:variable	line:8
+GI	../graph.py	/^    GI = graph.integrate()$/;"	kind:variable	line:403
+GNN	../gnn.py	/^class GNN(chainer.link.Chain):$/;"	kind:class	line:149
+GetSamples	../datahelper.py	/^    def GetSamples(self):$/;"	kind:member	line:52
+GraphMes	../graph.py	/^class GraphMes:$/;"	kind:class	line:182
+NVec	../gnn.py	/^class NVec(link.Link):$/;"	kind:class	line:107
+Nolinear	../gnn.py	/^class Nolinear(link.Link):$/;"	kind:class	line:37
+Nolinear2	../gnn.py	/^class Nolinear2(link.Link):$/;"	kind:class	line:69
+R2Vec	../gnn.py	/^class R2Vec(link.Link):$/;"	kind:class	line:132
+RVec	../gnn.py	/^class RVec(link.Link):$/;"	kind:class	line:121
+Settings	../graph.py	/^def Settings():$/;"	kind:function	line:166
+_GraphSet	../datahelper.py	/^    def _GraphSet(self):$/;"	kind:member	line:41
+__init__	../datahelper.py	/^    def __init__(self, file, NP=False, nodeIndexStart=0, edgeIndexStart=0):$/;"	kind:member	line:11
+__init__	../gnn.py	/^    def __init__(self, counts, vecDims):$/;"	kind:member	line:108
+__init__	../gnn.py	/^    def __init__(self, counts, vecDims):$/;"	kind:member	line:122
+__init__	../gnn.py	/^    def __init__(self, dim, dropout_rate, activate, isR, isBN):$/;"	kind:member	line:38
+__init__	../gnn.py	/^    def __init__(self, dim, dropout_rate, activate, isR, isBN):$/;"	kind:member	line:70
+__init__	../gnn.py	/^    def __init__(self, graph, settings, graph_mes, share_index):$/;"	kind:member	line:150
+__init__	../gnn.py	/^    def __init__(self, vecDims):$/;"	kind:member	line:133
+__init__	../graph.py	/^    def __init__(self, graph=None, file=None, start=0):$/;"	kind:member	line:183
+__init__	../graph.py	/^    def __init__(self, root, sf):$/;"	kind:member	line:12
+__init__	../graph.py	/^    def __init__(self,pairs,indexs):$/;"	kind:member	line:378
+_caculate1	../gnn.py	/^    def _caculate1(self, array):$/;"	kind:member	line:386
+_caculate2	../gnn.py	/^    def _caculate2(self, arrays, arrays_index):$/;"	kind:member	line:393
+_check_grad	../gnn.py	/^    def _check_grad(self, input, output):$/;"	kind:member	line:400
+_check_index	../gnn.py	/^def _check_index(pre, suc):$/;"	kind:function	line:27
+_check_index	../graph.py	/^    def _check_index(self, pre, suc):$/;"	kind:member	line:329
+_edge2id	../graph.py	/^    def _edge2id(self):$/;"	kind:member	line:342
+_initialize_params	../gnn.py	/^    def _initialize_params(self):$/;"	kind:member	line:116
+_node2id	../graph.py	/^    def _node2id(self):$/;"	kind:member	line:334
+_propagation	../gnn.py	/^    def _propagation(self, xs):$/;"	kind:member	line:252
+_write_error	../gnn.py	/^    def _write_error(self, pre_mes, suc_mes):$/;"	kind:member	line:294
+a	../test.py	/^a = (a1,a2,a3)$/;"	kind:variable	line:21
+a1	../test.py	/^a1 = Variable(a1)$/;"	kind:variable	line:10
+a1	../test.py	/^a1 = np.array([1,2,3])$/;"	kind:variable	line:7
+a2	../test.py	/^a2 = Variable(a2)$/;"	kind:variable	line:11
+a2	../test.py	/^a2 = np.array([4,5])$/;"	kind:variable	line:8
+a3	../test.py	/^a3 = Variable(a3)$/;"	kind:variable	line:12
+a3	../test.py	/^a3 = np.array([6,7,8,9])$/;"	kind:variable	line:9
+accuracy_func	../gnn.py	/^    def accuracy_func(self, x, ranks):$/;"	kind:member	line:212
+b	../test.py	/^b = (b1,b2,b3)/;"	kind:variable	line:22
+b1	../test.py	/^b1 = Variable(b1)$/;"	kind:variable	line:17
+b1	../test.py	/^b1 = np.array([11,22,33])$/;"	kind:variable	line:14
+b2	../test.py	/^b2 = Variable(b2)$/;"	kind:variable	line:18
+b2	../test.py	/^b2 = np.array([44,55])$/;"	kind:variable	line:15
+b3	../test.py	/^b3 = Variable(b3)$/;"	kind:variable	line:19
+b3	../test.py	/^b3 = np.array([62,37,87,91])$/;"	kind:variable	line:16
+caculate	../gnn.py	/^    def caculate(self, pre, suc):$/;"	kind:member	line:330
+caculate_parallel	../gnn.py	/^    def caculate_parallel(self, pre, suc):$/;"	kind:member	line:367
+copy_file	../gnn.py	/^def copy_file(src, dst):$/;"	kind:function	line:32
+datahelper.py	../datahelper.py	1;"	kind:file	line:1
+dataset	../graph.py	/^    def dataset(self, train_rate):$/;"	kind:member	line:148
+divide	../graph.py	/^    def divide(self, overlap_rate):$/;"	kind:member	line:41
+dot	../gnn.py	/^    def dot(self, pre_mes, suc_mes):$/;"	kind:member	line:299
+edge2id_file	../graph.py	/^    edge2id_file = root + '\/edge2id.txt'$/;"	kind:variable	line:400
+edgeCnt	../graph.py	/^    def edgeCnt(self):$/;"	kind:member	line:367
+edges	../graph.py	/^    def edges(self):$/;"	kind:member	line:364
+forward	../gnn.py	/^    def forward(self, indexs):$/;"	kind:member	line:118
+forward	../gnn.py	/^    def forward(self, indexs):$/;"	kind:member	line:129
+forward	../gnn.py	/^    def forward(self, pos):$/;"	kind:member	line:142
+forward	../gnn.py	/^    def forward(self, x):$/;"	kind:member	line:178
+forward	../gnn.py	/^    def forward(self, x, index_array):$/;"	kind:member	line:48
+forward	../gnn.py	/^    def forward(self, x, index_array):$/;"	kind:member	line:80
+gnn.py	../gnn.py	1;"	kind:file	line:1
+graph	../graph.py	/^    graph = nxClass(root, sf)$/;"	kind:variable	line:395
+graph.py	../graph.py	1;"	kind:file	line:1
+id	../datahelper.py	/^    def id(self):$/;"	kind:member	line:20
+id2file	../datahelper.py	/^    def id2file(self):$/;"	kind:member	line:74
+id2file	../graph.py	/^    def id2file(self, nodefn, edgefn):$/;"	kind:member	line:369
+initialize	../gnn.py	/^    def initialize(self):$/;"	kind:member	line:163
+integrate	../graph.py	/^    def integrate(self):$/;"	kind:member	line:96
+integrate_text	../graph.py	/^    def integrate_text(self):$/;"	kind:member	line:84
+loss_func	../gnn.py	/^    def loss_func(self, x, x_ne):$/;"	kind:member	line:200
+mes	../graph.py	/^    mes = GraphMes(GI)$/;"	kind:variable	line:404
+negative_sampling	../graph.py	/^def negative_sampling(G, trainset):$/;"	kind:function	line:171
+neighbors	../graph.py	/^    def neighbors(self,node):$/;"	kind:member	line:16
+neighbors_zx	../graph.py	/^    def neighbors_zx(self,node):$/;"	kind:member	line:207
+node2id_file	../graph.py	/^    node2id_file = root + '\/node2id.txt'$/;"	kind:variable	line:399
+nodeCnt	../graph.py	/^    def nodeCnt(self):$/;"	kind:member	line:358
+nodes	../graph.py	/^    def nodes(self):$/;"	kind:member	line:32
+nodes	../graph.py	/^    def nodes(self):$/;"	kind:member	line:355
+nodes	../graph.py	/^    nodes = [1,2,3,4,5,6,7,8]$/;"	kind:variable	line:406
+nxClass	../graph.py	/^class nxClass(object):$/;"	kind:class	line:11
+overlap_rate	../graph.py	/^    overlap_rate=0.5$/;"	kind:variable	line:390
+overlap_rates	../graph.py	/^    overlap_rates = settings['overlap_rate']$/;"	kind:variable	line:397
+print_withname	../gnn.py	/^def print_withname(variable):$/;"	kind:function	line:23
+propagation	../gnn.py	/^    def propagation(self, x):$/;"	kind:member	line:238
+readGraph	../graph.py	/^    def readGraph(self, sf, ints=False):$/;"	kind:member	line:19
+readGraph	../graph.py	/^    def readGraph(self, sf, ints=False):$/;"	kind:member	line:194
+retrieve_name	../gnn.py	/^def retrieve_name(var):$/;"	kind:function	line:19
+rewrite	../graph.py	/^    def rewrite(self, graph, data_helper, of):$/;"	kind:member	line:140
+root	../graph.py	/^    root = '.\/..\/data\/'+"Overlap"+str(int(overlap_rate*100))+'_TrainRate' +str(int(train_rate*100))$/;"	kind:variable	line:393
+sampleid2file	../datahelper.py	/^    def sampleid2file(self, tf):$/;"	kind:member	line:65
+samplesCnt	../graph.py	/^    def samplesCnt(self):$/;"	kind:member	line:361
+settings	../gnn.py	/^    settings = Settings()$/;"	kind:variable	line:458
+settings	../graph.py	/^    settings = Settings()$/;"	kind:variable	line:396
+sf	../graph.py	/^    sf = ".\/..\/data\/train_mini.txt"$/;"	kind:variable	line:394
+subG1	../datahelper.py	/^    subG1 = "..\/data\/subG1\/train.txt"$/;"	kind:variable	line:97
+subG1_helper	../datahelper.py	/^    subG1_helper = DataHelper(subG1)$/;"	kind:variable	line:99
+subG2	../datahelper.py	/^    subG2 = "..\/data\/subG2\/train.txt"$/;"	kind:variable	line:98
+subG2_helper	../datahelper.py	/^    subG2_helper = DataHelper(subG2)$/;"	kind:variable	line:100
+tensor	../datahelper.py	/^    def tensor(self, debug=Debug):$/;"	kind:member	line:83
+tensor	../graph.py	/^    def tensor(self):$/;"	kind:member	line:210
+tensor2	../graph.py	/^    def tensor2(self, nodes):$/;"	kind:member	line:247
+test.py	../test.py	1;"	kind:file	line:1
+train	../gnn.py	/^def train(overlap_rate, train_rate):$/;"	kind:function	line:420
+train_rate	../graph.py	/^    train_rate=0.5$/;"	kind:variable	line:391
+train_rates	../graph.py	/^    train_rates = settings['train_rate']$/;"	kind:variable	line:398
+writeGraph	../graph.py	/^    def writeGraph(self, graph, f_o):$/;"	kind:member	line:35
+y	../gnn.py	/^            y = train(overlap_rate, train_rate)$/;"	kind:variable	line:476

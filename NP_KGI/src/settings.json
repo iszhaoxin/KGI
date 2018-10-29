@@ -1,0 +1,25 @@
+{
+    "layers": [
+        {
+            "input_size": 200,
+            "output_size": 100,
+            "name": "input_layer",
+            "type": "input"
+        },
+        {
+            "input_size": 100,
+            "output_size": 2,
+            "name": "output_layer",
+            "type": "output"
+        }
+    ],
+    "batch_size": 128,
+    "test_size": 1000,
+    "epoch": 150,
+    "learning_rate": 0.1,
+    "dropout": 1,
+    "L2": 1,
+    "vecDims": 10,
+    "overlap_rate": [0.5],
+    "train_rate": [0.5]
+}
